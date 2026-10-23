@@ -172,3 +172,5 @@ app.delete('/api/noticias/:id', verificarToken, async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Servidor API corriendo en http://localhost:${PORT}`);
 });
+
+const API = 'https://periodico-api-inframen.onrender.com';
