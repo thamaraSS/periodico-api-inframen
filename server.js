@@ -173,4 +173,4 @@ app.listen(PORT, () => {
     console.log(`Servidor API corriendo en http://localhost:${PORT}`);
 });
 
-const API = 'https://periodico-api-inframen.onrender.com';
+const API = 'http://localhost/periodico_app/index.php';
